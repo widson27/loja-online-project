@@ -1,4 +1,5 @@
 import Logo from '../../../../public/SVGLogo';
+import Input from '../../../shared/inputs/input/Input';
 import {
   BackgoundImage,
   ContainerLogin,
@@ -13,6 +14,8 @@ const LoginScreen = () => {
       <ContainerLogin>
         <LimitedContainer>
           <Logo />
+          <Input title="Usuário" />
+          <Input title="Senha" />
         </LimitedContainer>
       </ContainerLogin>
     </ContainerLoginScreen>
